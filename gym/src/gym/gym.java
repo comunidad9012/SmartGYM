@@ -53,7 +53,6 @@ public class gym extends javax.swing.JFrame {
         jLabel4 = new javax.swing.JLabel();
         jTabbedPane1 = new javax.swing.JTabbedPane();
         panelInicio = new javax.swing.JPanel();
-        jLabel22 = new javax.swing.JLabel();
         panelClientes = new javax.swing.JPanel();
         jLabel28 = new javax.swing.JLabel();
         jScrollPane2 = new javax.swing.JScrollPane();
@@ -453,24 +452,15 @@ public class gym extends javax.swing.JFrame {
 
         panelInicio.setBackground(new java.awt.Color(204, 204, 204));
 
-        jLabel22.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
-        jLabel22.setText("INICIO");
-
         javax.swing.GroupLayout panelInicioLayout = new javax.swing.GroupLayout(panelInicio);
         panelInicio.setLayout(panelInicioLayout);
         panelInicioLayout.setHorizontalGroup(
             panelInicioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(panelInicioLayout.createSequentialGroup()
-                .addGap(375, 375, 375)
-                .addComponent(jLabel22, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(590, Short.MAX_VALUE))
+            .addGap(0, 1080, Short.MAX_VALUE)
         );
         panelInicioLayout.setVerticalGroup(
             panelInicioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(panelInicioLayout.createSequentialGroup()
-                .addGap(23, 23, 23)
-                .addComponent(jLabel22)
-                .addContainerGap(518, Short.MAX_VALUE))
+            .addGap(0, 589, Short.MAX_VALUE)
         );
 
         jTabbedPane1.addTab("tab2", panelInicio);
@@ -980,7 +970,6 @@ public class gym extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel17;
     private javax.swing.JLabel jLabel18;
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel22;
     private javax.swing.JLabel jLabel28;
     private javax.swing.JLabel jLabel29;
     private javax.swing.JLabel jLabel3;
